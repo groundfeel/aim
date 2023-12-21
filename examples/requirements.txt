@@ -2,13 +2,17 @@ aim-cli>=2.0.0
 Keras==2.2.4
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-numpy==1.16.4
+numpy==1.22.2
 Pillow>=7.1.0
-scikit-learn==0.21.2
-scipy==1.3.0
+scikit-learn==0.24.2
+scipy==1.10.0rc1
 tensorboard==1.13.1
 tensorflow==1.15.2
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 torch==1.2.0
 torchvision==0.4.0
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
